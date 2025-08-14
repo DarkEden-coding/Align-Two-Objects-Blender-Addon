@@ -9,9 +9,8 @@ A small, friendly Blender add-on that helps you align one mesh to another using 
 - Works in-world coordinates and supports using evaluated meshes with modifiers.
 
 ### Installation
-1. Save `Align_Object_To_PointCloud.py` somewhere on your machine.
-2. In Blender, open `Edit → Preferences → Add-ons` and click `Install...` and choose the file, or copy it into your Blender add-ons folder and enable it.
-3. The add-on appears in the 3D View Sidebar under the `Align` tab.
+1. Save this repository as a zip file.
+2. Use blenders install addon from local file in preferences and select the zip file.
 
 ### Quick start (step-by-step)
 1. In the 3D View, open the Sidebar (`N`) and switch to the `Align` tab.
