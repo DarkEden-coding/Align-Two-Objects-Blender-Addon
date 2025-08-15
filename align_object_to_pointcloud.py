@@ -1,10 +1,11 @@
 bl_info = {
     "name": "Align Object To Point Pairs",
-    "author": "Cursor AI",
+    "author": "ScytheEden",
     "version": (1, 0, 0),
     "blender": (3, 0, 0),
     "location": "View3D > Sidebar > Align",
     "description": "Create vertex pairs between two mesh objects and align the source to the target via best-fit similarity transform.",
+    "tracker_url": "https://github.com/DarkEden-coding/Align-3d-Scan-Blender/issues",
     "category": "Object",
 }
 
