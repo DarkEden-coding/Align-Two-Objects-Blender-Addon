@@ -6,6 +6,7 @@ bl_info = {
     "location": "View3D > Sidebar > Align",
     "description": "Create vertex pairs between two mesh objects and align the source to the target via best-fit similarity transform.",
     "tracker_url": "https://github.com/DarkEden-coding/Align-3d-Scan-Blender/issues",
+    "doc_url": "https://github.com/DarkEden-coding/Align-3d-Scan-Blender/blob/main/ReadME.md",
     "category": "Object",
 }
 
