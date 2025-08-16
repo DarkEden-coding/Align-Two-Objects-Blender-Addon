@@ -11,15 +11,19 @@ Quick features:
 - Works in world coordinates and on evaluated meshes (modifiers).
 
 ### Quick start (step-by-step)
-1. In the 3D View, open the Sidebar (`N`) and switch to the `Align` tab.
-2. Select your **Source** object (the one you want to move) and your **Target** object (the one you want to align to) from the dropdowns.
-3. To pick a vertex index from a mesh:
+1. Get the most up-to-date release zip file from the [releases page](https://github.com/DarkEden-coding/Align-3d-Scan-Blender/releases/latest).
+2. Install the local addon with the following button, select the zip file after that:
+<img width="486" height="123" alt="image" src="https://github.com/user-attachments/assets/13e380ed-29c5-47fa-b9b8-dd4622a2d134" />
+
+3. In the 3D View, open the Sidebar (`N`) and switch to the `Align` tab.
+4. Select your **Source** object (the one you want to move) and your **Target** object (the one you want to align to) from the dropdowns.
+5. To pick a vertex index from a mesh:
    - Select the mesh and enter Edit Mode.
    - Select a vertex (or make the vertex the active element), then click `Pick Src` (for the source vertex) or `Pick Tgt` (for the target vertex).
    - The picked index will appear in the `Src Index` / `Tgt Index` boxes.
-4. After choosing both indices, click `Add Pair`. Repeat to add at least **3** pairs (3 non-collinear points are required for a stable 3D similarity solution).
-5. When you have added enough pairs, click **Align Source To Target** to compute and apply the best-fit transform.
-6. Optionally, run **Refine (ICP)** to iteratively match the source mesh vertices to the nearest target mesh vertices and further reduce registration error.
+6. After choosing both indices, click `Add Pair`. Repeat to add at least **3** pairs (3 non-collinear points are required for a stable 3D similarity solution).
+7. When you have added enough pairs, click **Align Source To Target** to compute and apply the best-fit transform.
+8. Optionally, run **Refine (ICP)** to iteratively match the source mesh vertices to the nearest target mesh vertices and further reduce alignment error.
 
 ### UI & Settings explained
 - `Source`: The object that will be transformed (moved/rotated/scaled).
