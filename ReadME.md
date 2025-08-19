@@ -4,6 +4,8 @@ Blender add‑on to align a 3D scan mesh to a point‑cloud produced by
 Blender's camera tracking. Supports manual vertex correspondences plus
 ICP refinement to compute a best‑fit similarity transform. It will rotate, scale, and move the object to best fit the tracking point-cloud.
 
+Consider donating for this addon on [Gumroad!](https://scytheeden.gumroad.com/l/cqnmw)
+
 Quick features:
 - Manual vertex‑pair correspondences (source → target).
 - Least‑squares similarity fit (SVD) with optional uniform scaling.
